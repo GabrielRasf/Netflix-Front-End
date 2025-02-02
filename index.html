@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="root.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="background-container"></div>
+        <div class="header-netflix-logo">
+            <img class="image-header-netflix-logo" src="images/netflix-logo.svg" alt="netflix-logo">
+        </div>
+    </header>
+
+
+    <main>
+        <div class="background-container"></div>
+
+        <div class="div-form-login">
+            <div class="padding-form-login">
+                <div class="form-login">
+                    <h1 class="titulo">Entrar</h1>
+
+                    <!-- Campo de email ou telefone -->
+                    <div class="input-container">
+                        <input type="text" id="email-ou-telefone" name="email-ou-telefone"
+                            placeholder="Email ou número de celular">
+                    </div>
+
+                    <!-- Campo de senha -->
+                    <div class="input-container">
+                        <input type="password" id="password" name="password" placeholder="Senha">
+                    </div>
+
+                    <!-- Botão de entrar -->
+                    <div class="button-container">
+                        <button type="button" id="button-entrar">Entrar</button>
+                    </div>
+
+                    <!--Separação "OU" -->
+                    <div class="separator-container">
+                        <p id="ou-entrada">OU</p>
+                    </div>
+
+                    <!-- Botão de código de acesso -->
+                    <div class="button-container">
+                        <button type="button" id="button-codigo-acesso">Usar um código de acesso</button>
+                    </div>
+
+                    <!-- Link de "esqueceu a senha?" -->
+                    <div class="link-container">
+                        <a href="#" id="esqueceu-a-senha">Esqueceu a senha?</a>
+                    </div>
+
+                    <!-- Checkbox "lembrar de mim"-->
+                    <div class="lembrar-container">
+                        <input type="checkbox" id="lembrar" name="lembrar">
+                        <span>Lembrar-se de mim</span>
+                    </div>
+
+                    <!-- Assine agora -->
+                    <div class="assine-agora-container">
+                        <p>Novo por aqui? <a href="#" class="assine-agora">Assine agora.</a></p>
+                    </div>
+                    <!-- Saiba mais -->
+                    <div class="saiba-mais">
+                        <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.<a
+                                href="#"> Saiba mais</a></p>
+                    </div>
+                </div><!--form-login-->
+            </div><!--padding-->
+        </div><!--div-form-login-->
+
+    </main>
+
+
+    <footer>
+        <div>
+            <div class="footer-background">
+                <div class="div-footer-info">
+                    <div class="footer-duvidas">
+                        Dúvidas? Ligue 0800 591 2876
+                    </div><!--footer-duvidas-->
+                    <div class="footer-links">
+                        <ul class="footer-colum">
+                            <li><a href="">Perguntas frequentes</a></li>
+                            <li><a href="">Termos de uso</a></li>
+                            <li><a href="">Preferência de cookies</a></li>
+                        </ul>
+                        <ul class="footer-colum">
+                            <li><a href="">Central de ajuda</a></li>
+                            <li><a href="">Privacidade</a></li>
+                            <li><a href="">Informações corporativas</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <select id="options" name="options">
+                            <option value="option1">Português</option>
+                            <option value="option2">English</option>
+                        </select>
+                    </div>
+                </div><!--div-footer-info-->
+            </div><!--footer-background-->
+        </div>
+    </footer>
+</body>
+
+</html>
